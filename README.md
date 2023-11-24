@@ -33,7 +33,7 @@ classDiagram
         - horas: int 
       }
         ProfesorHoras: + ProfesorHoras() 
-        ProfesorHoras: + ProfesorHoras(double, double) 
+        ProfesorHoras: + ProfesorHoras(int, double,int) 
         ProfesorHoras: + getHoras() int 
         ProfesorHoras: + calculaSueldoFinal()  double 
 ```
